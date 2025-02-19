@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1bhqhocods5w"]
+
+[ext_resource type="PackedScene" uid="uid://bnv2fbtvc3pds" path="res://Models/character-male-b.glb" id="1_wicph"]
+
+[node name="character-male-b2" instance=ExtResource("1_wicph")]
