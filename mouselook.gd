@@ -16,5 +16,5 @@ func _input(event):
 		pitch = clamp(pitch, deg_to_rad(-80), deg_to_rad(80)) 
 		camera_pivot.rotation.x = pitch
 
-	if Input.is_action_just_pressed("ui_cancel"):
+	if Input.is_action_just_pressed("u	i_cancel"):
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE 

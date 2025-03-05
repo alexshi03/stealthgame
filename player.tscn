@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cuxjytxl1q1o8"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_vtqlx"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_13b5r"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_wktjb"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource("1_vtqlx")
+
+[node name="standing_col" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_13b5r")
+
+[node name="crouching_col" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("SphereShape3D_wktjb")
+
+[node name="cam_pivot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="Camera3D" type="Camera3D" parent="cam_pivot"]
+current = true
