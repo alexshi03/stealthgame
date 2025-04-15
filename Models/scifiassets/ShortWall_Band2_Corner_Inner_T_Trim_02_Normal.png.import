@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://be0fpelri6tug"
+path.s3tc="res://.godot/imported/ShortWall_Band2_Corner_Inner_T_Trim_02_Normal.png-06fd4a9c04ab9a0ba40754b43d81e071.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "60af5b7b100c8d2f984cf0c1021eb107"
+}
+
+[deps]
+
+source_file="res://Models/scifiassets/ShortWall_Band2_Corner_Inner_T_Trim_02_Normal.png"
+dest_files=["res://.godot/imported/ShortWall_Band2_Corner_Inner_T_Trim_02_Normal.png-06fd4a9c04ab9a0ba40754b43d81e071.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://Models/scifiassets/ShortWall_Band2_Corner_Inner_T_Trim_02_Normal.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

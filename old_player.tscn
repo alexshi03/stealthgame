@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://player.gd" id="1_cwwrm"]
 [ext_resource type="Script" path="res://mouselook.gd" id="2_wed2h"]
-[ext_resource type="Texture2D" uid="uid://cw41i3qftfi03" path="res://Models/Textures/colormap.png" id="3_5uc4p"]
+[ext_resource type="Texture2D" uid="uid://cw41i3qftfi03" path="res://Models/textures/colormap.png" id="3_5uc4p"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6yhq2"]
 

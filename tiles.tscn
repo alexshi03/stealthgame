@@ -1,0 +1,614 @@
+[gd_scene load_steps=123 format=3 uid="uid://xm26wmy8erud"]
+
+[ext_resource type="PackedScene" uid="uid://cjyi5js660fpp" path="res://Models/scifiassets/BottomMetal_Corner_Round_Inner.glb" id="1_wr1ag"]
+[ext_resource type="PackedScene" uid="uid://m2f8nmdu1tjq" path="res://Models/scifiassets/BottomMetal_Corner_Round_Outer.glb" id="2_b5cu1"]
+[ext_resource type="PackedScene" uid="uid://5nt60smy70lf" path="res://Models/scifiassets/BottomMetal_Corner_Square_Inner.glb" id="3_c4kls"]
+[ext_resource type="PackedScene" uid="uid://bi426tccbopol" path="res://Models/scifiassets/BottomMetal_Corner_Square_Outer_1.glb" id="4_3vkd7"]
+[ext_resource type="PackedScene" uid="uid://diwdl8jda5bsa" path="res://Models/scifiassets/BottomMetal_Corner_Square_Outer_2.glb" id="5_js8mb"]
+[ext_resource type="PackedScene" uid="uid://bjdool11mba4y" path="res://Models/scifiassets/BottomMetal_Straight.glb" id="6_2ucyw"]
+[ext_resource type="PackedScene" uid="uid://5pxcnqpxw1ph" path="res://Models/scifiassets/BottomSimple_Corner_Round_Inner.glb" id="7_6b7tm"]
+[ext_resource type="PackedScene" uid="uid://fbk60g2ypx1w" path="res://Models/scifiassets/BottomSimple_Corner_Round_Outer.glb" id="8_dfpfs"]
+[ext_resource type="PackedScene" uid="uid://dy8i1ahsa63iw" path="res://Models/scifiassets/BottomSimple_Corner_Square_Inner.glb" id="9_ra7s2"]
+[ext_resource type="PackedScene" uid="uid://c7duxogny3qgo" path="res://Models/scifiassets/BottomSimple_Corner_Square_Outer_1.glb" id="10_gluld"]
+[ext_resource type="PackedScene" uid="uid://8i6khflms1qs" path="res://Models/scifiassets/BottomSimple_Corner_Square_Outer_2.glb" id="11_p7sgg"]
+[ext_resource type="PackedScene" uid="uid://cfn1lbbek81pn" path="res://Models/scifiassets/BottomSimple_Straight.glb" id="12_fkvk4"]
+[ext_resource type="PackedScene" uid="uid://bsljqojrbihxg" path="res://Models/scifiassets/Door_DarkMetal.glb" id="13_xp7tt"]
+[ext_resource type="PackedScene" uid="uid://gyyhbo1yicix" path="res://Models/scifiassets/Door_Frame_A.glb" id="14_si0ft"]
+[ext_resource type="PackedScene" uid="uid://cr4qlv81uk028" path="res://Models/scifiassets/Door_Frame_Square.glb" id="15_7r4i8"]
+[ext_resource type="PackedScene" uid="uid://dnhq4cub4i2m" path="res://Models/scifiassets/Door_Frame_SquareTall.glb" id="16_1axdf"]
+[ext_resource type="PackedScene" uid="uid://mr6v0448kp8m" path="res://Models/scifiassets/Door_Frame_Square_Blocked.glb" id="17_5suhg"]
+[ext_resource type="PackedScene" uid="uid://hhopajrv2yd3" path="res://Models/scifiassets/Door_Metal.glb" id="18_yw8h8"]
+[ext_resource type="PackedScene" uid="uid://dseoxnobabeyt" path="res://Models/scifiassets/Door_Simple.glb" id="19_nkxsk"]
+[ext_resource type="PackedScene" uid="uid://dsa8sf86d2x1n" path="res://Models/scifiassets/Platform_3Plates.glb" id="20_qsejm"]
+[ext_resource type="PackedScene" uid="uid://cjfnlyrm4dnsj" path="res://Models/scifiassets/Platform_CenterPlate.glb" id="21_hnucy"]
+[ext_resource type="PackedScene" uid="uid://b5wiaawktfomg" path="res://Models/scifiassets/Platform_CenterPlate_Curve.glb" id="22_kuq5y"]
+[ext_resource type="PackedScene" uid="uid://dmcnaf8270ut3" path="res://Models/scifiassets/Platform_DarkPlates.glb" id="23_k4hwh"]
+[ext_resource type="PackedScene" uid="uid://ducel7nl75e6y" path="res://Models/scifiassets/Platform_DarkPlates_Curves.glb" id="24_1a822"]
+[ext_resource type="PackedScene" uid="uid://03ll0e245hrb" path="res://Models/scifiassets/Platform_Metal2.glb" id="25_ujpvf"]
+[ext_resource type="PackedScene" uid="uid://dnoyeljqe1skv" path="res://Models/scifiassets/Platform_Metal2_Curve.glb" id="26_2gsrs"]
+[ext_resource type="PackedScene" uid="uid://45iwpironbd4" path="res://Models/scifiassets/Platform_Metal.glb" id="27_m4fwl"]
+[ext_resource type="PackedScene" uid="uid://d3bhnll0jygeq" path="res://Models/scifiassets/Platform_Metal_Curve.glb" id="28_18lis"]
+[ext_resource type="PackedScene" uid="uid://cetspw0dwaxpr" path="res://Models/scifiassets/Platform_Rails_2.glb" id="29_02uun"]
+[ext_resource type="PackedScene" uid="uid://bp82qirx4y5oo" path="res://Models/scifiassets/Platform_Rails_4.glb" id="30_eir4m"]
+[ext_resource type="PackedScene" uid="uid://dvklvqsigktnj" path="res://Models/scifiassets/Platform_Rails_4Wide.glb" id="31_0mxfn"]
+[ext_resource type="PackedScene" uid="uid://dugm6d1ry5itd" path="res://Models/scifiassets/Platform_Rails_4WideTall.glb" id="32_siic7"]
+[ext_resource type="PackedScene" uid="uid://dn5hwhmjqkk8a" path="res://Models/scifiassets/Platform_Ramp_2.glb" id="33_4nt7j"]
+[ext_resource type="PackedScene" uid="uid://cdwp161ij5glg" path="res://Models/scifiassets/Platform_Ramp_2Short.glb" id="34_vd6p8"]
+[ext_resource type="PackedScene" uid="uid://ybs5b7ro6pbf" path="res://Models/scifiassets/Platform_Ramp_4.glb" id="35_6re70"]
+[ext_resource type="PackedScene" uid="uid://cod5ffbigae28" path="res://Models/scifiassets/Platform_Ramp_4Wide.glb" id="36_rr5b8"]
+[ext_resource type="PackedScene" uid="uid://b715ko4yqjagf" path="res://Models/scifiassets/Platform_Round1.glb" id="37_p7jhq"]
+[ext_resource type="PackedScene" uid="uid://b1404oi0syt7" path="res://Models/scifiassets/Platform_Simple2.glb" id="38_hj444"]
+[ext_resource type="PackedScene" uid="uid://t4es02y8wuab" path="res://Models/scifiassets/Platform_Simple2_Curve.glb" id="39_clg13"]
+[ext_resource type="PackedScene" uid="uid://edthigdv7gsf" path="res://Models/scifiassets/Platform_Simple.glb" id="40_aftfq"]
+[ext_resource type="PackedScene" uid="uid://dxbnn0fn2i2wn" path="res://Models/scifiassets/Platform_Simple_Curve.glb" id="41_ewl5q"]
+[ext_resource type="PackedScene" uid="uid://bxd5l3jwprqe1" path="res://Models/scifiassets/Platform_Squares.glb" id="42_bdf00"]
+[ext_resource type="PackedScene" uid="uid://m0ilvn53ncgx" path="res://Models/scifiassets/Platform_Squares_Curve.glb" id="43_xnebw"]
+[ext_resource type="PackedScene" uid="uid://dfsqd21tc2qwp" path="res://Models/scifiassets/Platform_Stairs_2.glb" id="44_qwf1r"]
+[ext_resource type="PackedScene" uid="uid://dbwqkdgkhiiyk" path="res://Models/scifiassets/Platform_Stairs_4.glb" id="45_a3t2c"]
+[ext_resource type="PackedScene" uid="uid://cxsj74jyjde2i" path="res://Models/scifiassets/Platform_Stairs_4Wide.glb" id="46_xpho2"]
+[ext_resource type="PackedScene" uid="uid://uvir43cl11mv" path="res://Models/scifiassets/Platform_Stairs_4WideTall.glb" id="47_00rqk"]
+[ext_resource type="PackedScene" uid="uid://doiy3pbvc8780" path="res://Models/scifiassets/Platform_Window_Thin.glb" id="48_htqww"]
+[ext_resource type="PackedScene" uid="uid://b2dkndgqsw6di" path="res://Models/scifiassets/Platform_Window_Wide.glb" id="49_41q5y"]
+[ext_resource type="PackedScene" uid="uid://mvk84g0grtvi" path="res://Models/scifiassets/Platform_X.glb" id="50_uimxr"]
+[ext_resource type="PackedScene" uid="uid://b0qw0878r15p5" path="res://Models/scifiassets/ShortWall_AccentStrip_Corner_Inner.glb" id="51_stpd5"]
+[ext_resource type="PackedScene" uid="uid://b8ddfp350ldmn" path="res://Models/scifiassets/ShortWall_AccentStrip_Corner_Outer.glb" id="52_15ebp"]
+[ext_resource type="PackedScene" uid="uid://rhed843vl33g" path="res://Models/scifiassets/ShortWall_AccentStrip_Straight.glb" id="53_r7tww"]
+[ext_resource type="PackedScene" uid="uid://f81xkn8x6x61" path="res://Models/scifiassets/ShortWall_Band2_Corner_Inner.glb" id="54_wnwpc"]
+[ext_resource type="PackedScene" uid="uid://bdjjxr72brjxd" path="res://Models/scifiassets/ShortWall_Band2_Corner_Outer.glb" id="55_t5udm"]
+[ext_resource type="PackedScene" uid="uid://clolgc5l0ydgl" path="res://Models/scifiassets/ShortWall_Band2_Straight.glb" id="56_yo0uq"]
+[ext_resource type="PackedScene" uid="uid://ceq0tj52q6h3" path="res://Models/scifiassets/ShortWall_DarkMetal2_Corner_Inner.glb" id="57_c88s5"]
+[ext_resource type="PackedScene" uid="uid://dhqkm45p3lvkt" path="res://Models/scifiassets/ShortWall_DarkMetal2_Corner_Outer.glb" id="58_rheg4"]
+[ext_resource type="PackedScene" uid="uid://udqvejtgqlp8" path="res://Models/scifiassets/ShortWall_DarkMetal2_Straight.glb" id="59_8s3ut"]
+[ext_resource type="PackedScene" uid="uid://r01qaq6drm8w" path="res://Models/scifiassets/ShortWall_DarkPlastic_Corner_Inner.glb" id="60_pl1x8"]
+[ext_resource type="PackedScene" uid="uid://b8v6jts868eae" path="res://Models/scifiassets/ShortWall_DarkPlastic_Corner_Outer.glb" id="61_uavml"]
+[ext_resource type="PackedScene" uid="uid://cip70dj6bbeua" path="res://Models/scifiassets/ShortWall_DarkPlastic_Straight.glb" id="62_avxnu"]
+[ext_resource type="PackedScene" uid="uid://d6ak7uk2835a" path="res://Models/scifiassets/ShortWall_Metal2_Corner_Inner.glb" id="63_s0vjl"]
+[ext_resource type="PackedScene" uid="uid://kufu8mkaf55n" path="res://Models/scifiassets/ShortWall_Metal2_Corner_Outer.glb" id="64_m86a2"]
+[ext_resource type="PackedScene" uid="uid://d1gdin6dj7igb" path="res://Models/scifiassets/ShortWall_Metal2_Straight.glb" id="65_ud216"]
+[ext_resource type="PackedScene" uid="uid://po1o3v6mm3bt" path="res://Models/scifiassets/ShortWall_MetalPlates_Corner_Inner.glb" id="66_al613"]
+[ext_resource type="PackedScene" uid="uid://dyle3tpnbbqa1" path="res://Models/scifiassets/ShortWall_MetalPlates_Corner_Outer.glb" id="67_m41ub"]
+[ext_resource type="PackedScene" uid="uid://c3bsq57ep8pe0" path="res://Models/scifiassets/ShortWall_MetalPlates_Straight.glb" id="68_1f2jt"]
+[ext_resource type="PackedScene" uid="uid://da0aetnac4neh" path="res://Models/scifiassets/ShortWall_Simple1_Corner_Inner.glb" id="69_34p2t"]
+[ext_resource type="PackedScene" uid="uid://cx66sqna5ftdq" path="res://Models/scifiassets/ShortWall_Simple1_Corner_Outer.glb" id="70_1sqt6"]
+[ext_resource type="PackedScene" uid="uid://dg0vlg2xh4hvl" path="res://Models/scifiassets/ShortWall_Simple1_Straight.glb" id="71_x1gsg"]
+[ext_resource type="PackedScene" uid="uid://b4pe3eks6yphm" path="res://Models/scifiassets/ShortWall_Simple2_Corner_Inner.glb" id="72_02jij"]
+[ext_resource type="PackedScene" uid="uid://cwkyj7koje844" path="res://Models/scifiassets/ShortWall_Simple2_Corner_Outer.glb" id="73_5iuf6"]
+[ext_resource type="PackedScene" uid="uid://cq4w3wyyarenk" path="res://Models/scifiassets/ShortWall_Simple2_Straight.glb" id="74_pfrk5"]
+[ext_resource type="PackedScene" uid="uid://kk47cmlqh2y3" path="res://Models/scifiassets/ShortWall_Triangles_Corner_Inner.glb" id="75_fvauq"]
+[ext_resource type="PackedScene" uid="uid://bdqsjbue0i3dh" path="res://Models/scifiassets/ShortWall_Triangles_Corner_Outer.glb" id="76_kfy3h"]
+[ext_resource type="PackedScene" uid="uid://uatw7g6n4tbe" path="res://Models/scifiassets/ShortWall_Triangles_Straight.glb" id="77_iwarg"]
+[ext_resource type="PackedScene" uid="uid://c84wqf6xgklkb" path="res://Models/scifiassets/ShortWall_WhitePlate2_Corner_Inner.glb" id="78_ywpdc"]
+[ext_resource type="PackedScene" uid="uid://ide1as5il3mx" path="res://Models/scifiassets/ShortWall_WhitePlate2_Corner_Outer.glb" id="79_8t5xp"]
+[ext_resource type="PackedScene" uid="uid://cypyi754a8uee" path="res://Models/scifiassets/ShortWall_WhitePlate2_Straight.glb" id="80_qghrr"]
+[ext_resource type="PackedScene" uid="uid://dsrclt6k4x0mc" path="res://Models/scifiassets/TopAstra_Corner_Round_Inner.glb" id="81_dpqaw"]
+[ext_resource type="PackedScene" uid="uid://cdwrwt0yrf7k3" path="res://Models/scifiassets/TopAstra_Curve_Round_Outer.glb" id="82_t6xiy"]
+[ext_resource type="PackedScene" uid="uid://bt8jqokewg8y" path="res://Models/scifiassets/TopAstra_Straight.glb" id="83_1rj2q"]
+[ext_resource type="PackedScene" uid="uid://t24kmemjnvkm" path="res://Models/scifiassets/TopCables_Corner_Round_Inner.glb" id="84_4s7lk"]
+[ext_resource type="PackedScene" uid="uid://c1onk76xb8awm" path="res://Models/scifiassets/TopCables_Corner_Round_Outer.glb" id="85_n64ek"]
+[ext_resource type="PackedScene" uid="uid://d1damw328luwn" path="res://Models/scifiassets/TopCables_Corner_Square_Inner.glb" id="86_p7b5r"]
+[ext_resource type="PackedScene" uid="uid://cykhpag7ft7dy" path="res://Models/scifiassets/TopCables_Corner_Square_Outer.glb" id="87_7qvd6"]
+[ext_resource type="PackedScene" uid="uid://b6efbub8josy2" path="res://Models/scifiassets/TopCables_Straight.glb" id="88_6hg2m"]
+[ext_resource type="PackedScene" uid="uid://bl76jyvs7svh3" path="res://Models/scifiassets/TopCables_Straight_Hanging.glb" id="89_is0q1"]
+[ext_resource type="PackedScene" uid="uid://dyd0y6w8cunoe" path="res://Models/scifiassets/TopPlastic_Corner_Outer.glb" id="90_aq6re"]
+[ext_resource type="PackedScene" uid="uid://dfxlo8cr1bvme" path="res://Models/scifiassets/TopPlastic_Corner_Round_Inner.glb" id="91_64bbw"]
+[ext_resource type="PackedScene" uid="uid://cjpxm5r7gggxg" path="res://Models/scifiassets/TopPlastic_Corner_Round_Outer.glb" id="92_kv7ug"]
+[ext_resource type="PackedScene" uid="uid://c837j34ixfn3j" path="res://Models/scifiassets/TopPlastic_Straight.glb" id="93_1sx3c"]
+[ext_resource type="PackedScene" uid="uid://c8m34xmwwnqgl" path="res://Models/scifiassets/TopSimple_Corner_Round_Inner.glb" id="94_xxn18"]
+[ext_resource type="PackedScene" uid="uid://cqflvvtba2xo3" path="res://Models/scifiassets/TopSimple_Corner_Round_Outer.glb" id="95_or7vf"]
+[ext_resource type="PackedScene" uid="uid://ctsph76qryv8h" path="res://Models/scifiassets/TopSimple_Straight.glb" id="96_cbd00"]
+[ext_resource type="PackedScene" uid="uid://0r8wim3sa21p" path="res://Models/scifiassets/TopWindow_Corner_Curve_Inner.glb" id="97_finpa"]
+[ext_resource type="PackedScene" uid="uid://dlat48da2tr1j" path="res://Models/scifiassets/TopWindow_Corner_Curve_Outer.glb" id="98_xysvq"]
+[ext_resource type="PackedScene" uid="uid://b477ku4j0v2m7" path="res://Models/scifiassets/TopWindow_Straight.glb" id="99_0llco"]
+[ext_resource type="PackedScene" uid="uid://2lwaorfi2bnm" path="res://Models/scifiassets/WallAstra_Corner_Round_Inner.glb" id="100_4ob87"]
+[ext_resource type="PackedScene" uid="uid://dsuiay0nelq67" path="res://Models/scifiassets/WallAstra_Corner_Round_Outer.glb" id="101_gpat6"]
+[ext_resource type="PackedScene" uid="uid://ccd8sqk2efyvv" path="res://Models/scifiassets/WallAstra_Corner_Square_Inner.glb" id="102_8pwum"]
+[ext_resource type="PackedScene" uid="uid://dudx4vjwws1ek" path="res://Models/scifiassets/WallAstra_Corner_Square_Outer.glb" id="103_flfac"]
+[ext_resource type="PackedScene" uid="uid://b7f7ql4v6yueq" path="res://Models/scifiassets/WallAstra_Straight.glb" id="104_0bbxm"]
+[ext_resource type="PackedScene" uid="uid://k2am7rqi27xe" path="res://Models/scifiassets/WallAstra_Straight_Broken.glb" id="105_6yec2"]
+[ext_resource type="PackedScene" uid="uid://4kh6a34pcc18" path="res://Models/scifiassets/WallAstra_Straight_Divided.glb" id="106_onf0n"]
+[ext_resource type="PackedScene" uid="uid://bbfu8hthnoemy" path="res://Models/scifiassets/WallAstra_Straight_Flat.glb" id="107_iobns"]
+[ext_resource type="PackedScene" uid="uid://c4aqq0knny7s3" path="res://Models/scifiassets/WallAstra_Straight_Flat_Window.glb" id="108_3mqf1"]
+[ext_resource type="PackedScene" uid="uid://clh0vhnt47bpe" path="res://Models/scifiassets/WallAstra_Straight_Window.glb" id="109_yyxde"]
+[ext_resource type="PackedScene" uid="uid://8dgo4nc4h3v6" path="res://Models/scifiassets/WallBand_Corner_Round_Inner.glb" id="110_glvek"]
+[ext_resource type="PackedScene" uid="uid://blts5av16w15r" path="res://Models/scifiassets/WallBand_Corner_Round_Outer.glb" id="111_iv6ir"]
+[ext_resource type="PackedScene" uid="uid://4f3vimnapkm3" path="res://Models/scifiassets/WallBand_Corner_Square_Inner.glb" id="112_rpeil"]
+[ext_resource type="PackedScene" uid="uid://b28ypceqblggk" path="res://Models/scifiassets/WallBand_Corner_Square_Outer.glb" id="113_di4o1"]
+[ext_resource type="PackedScene" uid="uid://cmn2opr6k74q5" path="res://Models/scifiassets/WallBand_Straight.glb" id="114_n5c8b"]
+[ext_resource type="PackedScene" uid="uid://bjr14s4vptwum" path="res://Models/scifiassets/WallBand_Straight_Broken.glb" id="115_ac2o1"]
+[ext_resource type="PackedScene" uid="uid://cdfeibck2sx77" path="res://Models/scifiassets/WallWindow_Cap_A.glb" id="116_13t7j"]
+[ext_resource type="PackedScene" uid="uid://yvbkt177784k" path="res://Models/scifiassets/WallWindow_Cap_B.glb" id="117_8ecdr"]
+[ext_resource type="PackedScene" uid="uid://byd32sx4fxcwm" path="res://Models/scifiassets/WallWindow_Corner_Round_Inner.glb" id="118_b3kv0"]
+[ext_resource type="PackedScene" uid="uid://bl4patgryrygg" path="res://Models/scifiassets/WallWindow_Corner_Round_Outer.glb" id="119_bsrki"]
+[ext_resource type="PackedScene" uid="uid://d4es1023k3chh" path="res://Models/scifiassets/WallWindow_Corner_Square_Inner.glb" id="120_h1tk8"]
+[ext_resource type="PackedScene" uid="uid://cwlfwrtye5glb" path="res://Models/scifiassets/WallWindow_Corner_Square_Outer.glb" id="121_xq7gp"]
+[ext_resource type="PackedScene" uid="uid://y8bvxksqf50a" path="res://Models/scifiassets/WallWindow_Straight.glb" id="122_vniic"]
+
+[node name="tiles" type="Node3D"]
+
+[node name="BottomMetal_Corner_Round_Inner2" parent="." instance=ExtResource("1_wr1ag")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomMetal_Corner_Round_Outer2" parent="." instance=ExtResource("2_b5cu1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomMetal_Corner_Square_Inner2" parent="." instance=ExtResource("3_c4kls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomMetal_Corner_Square_Outer_12" parent="." instance=ExtResource("4_3vkd7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomMetal_Corner_Square_Outer_22" parent="." instance=ExtResource("5_js8mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomMetal_Straight2" parent="." instance=ExtResource("6_2ucyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomSimple_Corner_Round_Inner2" parent="." instance=ExtResource("7_6b7tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomSimple_Corner_Round_Outer2" parent="." instance=ExtResource("8_dfpfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomSimple_Corner_Square_Inner2" parent="." instance=ExtResource("9_ra7s2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomSimple_Corner_Square_Outer_12" parent="." instance=ExtResource("10_gluld")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomSimple_Corner_Square_Outer_22" parent="." instance=ExtResource("11_p7sgg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="BottomSimple_Straight2" parent="." instance=ExtResource("12_fkvk4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_DarkMetal2" parent="." instance=ExtResource("13_xp7tt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_Frame_A2" parent="." instance=ExtResource("14_si0ft")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_Frame_Square2" parent="." instance=ExtResource("15_7r4i8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_Frame_SquareTall2" parent="." instance=ExtResource("16_1axdf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_Frame_Square_Blocked2" parent="." instance=ExtResource("17_5suhg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_Metal2" parent="." instance=ExtResource("18_yw8h8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Door_Simple2" parent="." instance=ExtResource("19_nkxsk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_3Plates2" parent="." instance=ExtResource("20_qsejm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_CenterPlate2" parent="." instance=ExtResource("21_hnucy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_CenterPlate_Curve2" parent="." instance=ExtResource("22_kuq5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_DarkPlates2" parent="." instance=ExtResource("23_k4hwh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_DarkPlates_Curves2" parent="." instance=ExtResource("24_1a822")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Metal22" parent="." instance=ExtResource("25_ujpvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Metal2_Curve2" parent="." instance=ExtResource("26_2gsrs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Metal2" parent="." instance=ExtResource("27_m4fwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Metal_Curve2" parent="." instance=ExtResource("28_18lis")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Rails_22" parent="." instance=ExtResource("29_02uun")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Rails_42" parent="." instance=ExtResource("30_eir4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Rails_4Wide2" parent="." instance=ExtResource("31_0mxfn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Rails_4WideTall2" parent="." instance=ExtResource("32_siic7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Ramp_22" parent="." instance=ExtResource("33_4nt7j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Ramp_2Short2" parent="." instance=ExtResource("34_vd6p8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Ramp_42" parent="." instance=ExtResource("35_6re70")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Ramp_4Wide2" parent="." instance=ExtResource("36_rr5b8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Round12" parent="." instance=ExtResource("37_p7jhq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Simple22" parent="." instance=ExtResource("38_hj444")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Simple2_Curve2" parent="." instance=ExtResource("39_clg13")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Simple2" parent="." instance=ExtResource("40_aftfq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Simple_Curve2" parent="." instance=ExtResource("41_ewl5q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Squares2" parent="." instance=ExtResource("42_bdf00")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Squares_Curve2" parent="." instance=ExtResource("43_xnebw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Stairs_22" parent="." instance=ExtResource("44_qwf1r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Stairs_42" parent="." instance=ExtResource("45_a3t2c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Stairs_4Wide2" parent="." instance=ExtResource("46_xpho2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Stairs_4WideTall2" parent="." instance=ExtResource("47_00rqk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Window_Thin2" parent="." instance=ExtResource("48_htqww")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_Window_Wide2" parent="." instance=ExtResource("49_41q5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="Platform_X2" parent="." instance=ExtResource("50_uimxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_AccentStrip_Corner_Inner2" parent="." instance=ExtResource("51_stpd5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_AccentStrip_Corner_Outer2" parent="." instance=ExtResource("52_15ebp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_AccentStrip_Straight2" parent="." instance=ExtResource("53_r7tww")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Band2_Corner_Inner2" parent="." instance=ExtResource("54_wnwpc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Band2_Corner_Outer2" parent="." instance=ExtResource("55_t5udm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Band2_Straight2" parent="." instance=ExtResource("56_yo0uq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_DarkMetal2_Corner_Inner2" parent="." instance=ExtResource("57_c88s5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_DarkMetal2_Corner_Outer2" parent="." instance=ExtResource("58_rheg4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_DarkMetal2_Straight2" parent="." instance=ExtResource("59_8s3ut")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_DarkPlastic_Corner_Inner2" parent="." instance=ExtResource("60_pl1x8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_DarkPlastic_Corner_Outer2" parent="." instance=ExtResource("61_uavml")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_DarkPlastic_Straight2" parent="." instance=ExtResource("62_avxnu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Metal2_Corner_Inner2" parent="." instance=ExtResource("63_s0vjl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Metal2_Corner_Outer2" parent="." instance=ExtResource("64_m86a2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Metal2_Straight2" parent="." instance=ExtResource("65_ud216")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_MetalPlates_Corner_Inner2" parent="." instance=ExtResource("66_al613")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_MetalPlates_Corner_Outer2" parent="." instance=ExtResource("67_m41ub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_MetalPlates_Straight2" parent="." instance=ExtResource("68_1f2jt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Simple1_Corner_Inner2" parent="." instance=ExtResource("69_34p2t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Simple1_Corner_Outer2" parent="." instance=ExtResource("70_1sqt6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Simple1_Straight2" parent="." instance=ExtResource("71_x1gsg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Simple2_Corner_Inner2" parent="." instance=ExtResource("72_02jij")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Simple2_Corner_Outer2" parent="." instance=ExtResource("73_5iuf6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Simple2_Straight2" parent="." instance=ExtResource("74_pfrk5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Triangles_Corner_Inner2" parent="." instance=ExtResource("75_fvauq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Triangles_Corner_Outer2" parent="." instance=ExtResource("76_kfy3h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_Triangles_Straight2" parent="." instance=ExtResource("77_iwarg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_WhitePlate2_Corner_Inner2" parent="." instance=ExtResource("78_ywpdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_WhitePlate2_Corner_Outer2" parent="." instance=ExtResource("79_8t5xp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="ShortWall_WhitePlate2_Straight2" parent="." instance=ExtResource("80_qghrr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopAstra_Corner_Round_Inner2" parent="." instance=ExtResource("81_dpqaw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopAstra_Curve_Round_Outer2" parent="." instance=ExtResource("82_t6xiy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopAstra_Straight2" parent="." instance=ExtResource("83_1rj2q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopCables_Corner_Round_Inner2" parent="." instance=ExtResource("84_4s7lk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopCables_Corner_Round_Outer2" parent="." instance=ExtResource("85_n64ek")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopCables_Corner_Square_Inner2" parent="." instance=ExtResource("86_p7b5r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopCables_Corner_Square_Outer2" parent="." instance=ExtResource("87_7qvd6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopCables_Straight2" parent="." instance=ExtResource("88_6hg2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopCables_Straight_Hanging2" parent="." instance=ExtResource("89_is0q1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopPlastic_Corner_Outer2" parent="." instance=ExtResource("90_aq6re")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopPlastic_Corner_Round_Inner2" parent="." instance=ExtResource("91_64bbw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopPlastic_Corner_Round_Outer2" parent="." instance=ExtResource("92_kv7ug")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopPlastic_Straight2" parent="." instance=ExtResource("93_1sx3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopSimple_Corner_Round_Inner2" parent="." instance=ExtResource("94_xxn18")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopSimple_Corner_Round_Outer2" parent="." instance=ExtResource("95_or7vf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopSimple_Straight2" parent="." instance=ExtResource("96_cbd00")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopWindow_Corner_Curve_Inner2" parent="." instance=ExtResource("97_finpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopWindow_Corner_Curve_Outer2" parent="." instance=ExtResource("98_xysvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="TopWindow_Straight2" parent="." instance=ExtResource("99_0llco")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Corner_Round_Inner2" parent="." instance=ExtResource("100_4ob87")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Corner_Round_Outer2" parent="." instance=ExtResource("101_gpat6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Corner_Square_Inner2" parent="." instance=ExtResource("102_8pwum")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Corner_Square_Outer2" parent="." instance=ExtResource("103_flfac")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Straight2" parent="." instance=ExtResource("104_0bbxm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Straight_Broken2" parent="." instance=ExtResource("105_6yec2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Straight_Divided2" parent="." instance=ExtResource("106_onf0n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Straight_Flat2" parent="." instance=ExtResource("107_iobns")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Straight_Flat_Window2" parent="." instance=ExtResource("108_3mqf1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallAstra_Straight_Window2" parent="." instance=ExtResource("109_yyxde")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallBand_Corner_Round_Inner2" parent="." instance=ExtResource("110_glvek")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallBand_Corner_Round_Outer2" parent="." instance=ExtResource("111_iv6ir")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallBand_Corner_Square_Inner2" parent="." instance=ExtResource("112_rpeil")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallBand_Corner_Square_Outer2" parent="." instance=ExtResource("113_di4o1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallBand_Straight2" parent="." instance=ExtResource("114_n5c8b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallBand_Straight_Broken2" parent="." instance=ExtResource("115_ac2o1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Cap_A2" parent="." instance=ExtResource("116_13t7j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Cap_B2" parent="." instance=ExtResource("117_8ecdr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Corner_Round_Inner2" parent="." instance=ExtResource("118_b3kv0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Corner_Round_Outer2" parent="." instance=ExtResource("119_bsrki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Corner_Square_Inner2" parent="." instance=ExtResource("120_h1tk8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Corner_Square_Outer2" parent="." instance=ExtResource("121_xq7gp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false
+
+[node name="WallWindow_Straight2" parent="." instance=ExtResource("122_vniic")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0422379, 0, 0.0245712)
+visible = false

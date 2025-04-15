@@ -24,6 +24,11 @@ Global="*res://global.gd"
 shapes/navigation/geometry_edge_color=Color(3.94672e-06, 0.651442, 0.669925, 1)
 shapes/navigation/geometry_face_color=Color(0.501961, 1, 1, 0.780392)
 
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+
 [input]
 
 move_forward={

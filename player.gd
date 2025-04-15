@@ -4,6 +4,8 @@ extends CharacterBody3D
 @onready var crouching_col = get_node("crouching_col")
 @onready var cam_pivot = get_node("cam_pivot")
 
+@onready var anim_player = get_node("AnimationPlayer")
+
 var speed = 3
 var jump_vel = 4.5
 var mouse_sensitivity = 0.002
@@ -46,6 +48,7 @@ func _swap_camera():
 	debug_camera.current = using_debug_camera
 	
 func control_loop(delta):
+	
 	if Input.is_action_just_pressed("ui_cancel"):
 		#places mouse cursor to center of screen, then locks it to center
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED if Input.mouse_mode == Input.MOUSE_MODE_VISIBLE else Input.MOUSE_MODE_VISIBLE
@@ -57,6 +60,8 @@ func control_loop(delta):
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = jump_vel
+		if not anim_player.is_playing() or anim_player.current_animation != "Rig|man_jump_in_place":
+			anim_player.play("Rig|man_jump_in_place")
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
@@ -65,9 +70,14 @@ func control_loop(delta):
 	if direction:
 		velocity.x = direction.x * speed
 		velocity.z = direction.z * speed
+		if anim_player.current_animation != "Rig|man_jump_in_place" and (not anim_player.is_playing() or anim_player.current_animation != "Rig|man_run_in_place"):
+			anim_player.play("Rig|man_run_in_place")
 	else:
 		velocity.x = move_toward(velocity.x, 0, speed)
 		velocity.z = move_toward(velocity.z, 0, speed)
+		if anim_player.current_animation != "Rig|man_jump_in_place" and (not anim_player.is_playing() or anim_player.current_animation != "Rig|man_idle"):
+			anim_player.play("Rig|man_idle")
+	
 
 	move_and_slide()
 	

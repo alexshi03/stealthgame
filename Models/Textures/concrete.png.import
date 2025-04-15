@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8rshj73ltle8"
-path.s3tc="res://.godot/imported/concrete.png-603cb4d3bcb41a24a3b169aec6f71822.s3tc.ctex"
+path.s3tc="res://.godot/imported/concrete.png-d8413c7cdb60c7086e6915c643bcec70.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/concrete.png"
-dest_files=["res://.godot/imported/concrete.png-603cb4d3bcb41a24a3b169aec6f71822.s3tc.ctex"]
+source_file="res://Models/textures/concrete.png"
+dest_files=["res://.godot/imported/concrete.png-d8413c7cdb60c7086e6915c643bcec70.s3tc.ctex"]
 
 [params]
 
